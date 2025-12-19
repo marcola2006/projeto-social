@@ -44,3 +44,21 @@ section#telefone {
     background: url(../imagens/frame-iphone.png) no-repeat;
 
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 10px;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.568);
+    transition: 0.3s;
+    
+}
